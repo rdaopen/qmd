@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import DownloadSection from "@/components/DownloadSection";
+import DonationSection from "@/components/DonationSection";
 import { Metadata } from "next";
 
 const baseURL =
@@ -45,6 +46,7 @@ export default function Home() {
       <Hero />
       <Features />
       <DownloadSection />
+      <DonationSection />
     </div>
   );
 }

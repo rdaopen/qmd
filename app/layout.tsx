@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   title: "Quick Media Downloader",
   description:
     "A modern, feature-rich Windows application for downloading videos and audio from YouTube and other platforms.",
+  icons: {
+    icon: [
+      {
+        rel: "icon",
+        url: "/favicon.ico",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
